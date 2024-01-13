@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pig Game</title>
+    <link rel="shortcut icon" href="./assets/pigGameFav.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="gameWrapper">
+        <div class="playerControls" id="ply1Controls">
+            <span>
+                <span class="activePlayer1">PLAYER 1</span>
+                <span class="plyr1Score plyrScr">0</span>
+            </span>
+            <button>    
+                <span class="crntButton">CURRENT</span>
+                <span class="crntScore crntScore1">0</span>
+            </button>
+        </div>
+        <div class="playerControls" id="ply2Controls">
+            <span>
+                <span class="activePlayer2">PLAYER 2</span>
+                <span class="plyr2Score plyrScr">0</span>
+            </span>
+            <button>    
+                <span class="crntButton">CURRENT</span>
+                <span class="crntScore crntScore2">0</span>
+            </button>
+        </div>
+
+        <div class="gameOptions">
+            <Button class="newGame">🔄 NEW GAME</Button>
+            <img src="./assets/dice-1.png" class="dice">
+            <div class="diceControlls">
+                <Button>🎲 ROLL DICE</Button>
+                <Button>📥 HOLD</Button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
